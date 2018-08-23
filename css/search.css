@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+#container {
+    max-width: 1263px;
+    margin: 90px auto 0 auto;
+}
+.list {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+.list .form {
+    margin: 0 auto 30px 0;
+}
+.list .info {
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+.list .info .keyword {
+    color: red;
+}
+.list .info .number {
+    color: green;
+}
+.list .form label {
+    display: block;
+    text-align: center;
+}
+.list .form .text {
+    width: 350px;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 2px 5px;
+    color: #333;
+    position: relative;
+    top: 1px;
+}
+.list .form .submit {
+    border: 0;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #00bfff;
+    color: #fff;
+    border-radius: 4px;
+}
+.list .question {
+    padding: 0 30px 25px 30px;
+    border-bottom: 1px solid #eee;
+}
+.list .question_img {
+    float: left;
+    margin-right: 10px;
+}
+.list .question_face {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+}
+.list .question_title {
+    font-size: 16px;
+    padding: 4px 0 12px 0;
+}
+.list .question_title a {
+    color: #555;
+}
+.list .question_title a:visited {
+    color: #999;
+}
+.list .question_info {
+    color: #777;
+    font-size: 12px;
+}
+.list .question_info em {
+    float: right;
+    font-style: normal;
+}
+
+@media (max-width: 768px) {
+    .list {
+        padding: 20px;
+    }
+    .list .form .text {
+        width: 100%;
+    }
+    .list .form .submit {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+
+}
